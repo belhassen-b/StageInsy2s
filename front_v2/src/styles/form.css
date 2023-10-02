@@ -1,0 +1,68 @@
+/* form.css */
+
+/* Style for the container div */
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.login-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(
+            to right,
+            #FFA500,
+            #FF6347
+    );    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.register-form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(
+            to right,
+            #FFA500,
+            #FF6347
+    );    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the form title */
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for form input fields */
+/*.form-input {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 15px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*}*/
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
